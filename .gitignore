@@ -1,0 +1,107 @@
+# =============================================
+# UNITY
+# =============================================
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Cache de paquetes
+[Pp]ackageCache/
+
+# Cache de Shader compilados
+[Aa]rtifacts/
+
+# Cache de Visual Scripting
+[Uu]serSettings/VisualScripting/
+
+# Descargas de paquetes Unity
+[Dd]ownloads/
+
+# Generated data
+[Bb]in/
+[Dd]ebug*/
+[Rr]elease*/
+[Tt]est[Rr]esults*/
+
+# =============================================
+# UNITY - Visual Studio / Rider
+# =============================================
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.suo
+*.svd
+*.pdb
+*.mdb
+
+# JetBrains Rider
+.idea/
+*.DotSettings
+
+# =============================================
+# SISTEMA OPERATIVO
+# =============================================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# =============================================
+# UNITY - archivos adicionales
+# =============================================
+
+# Ignoreando Assets generados por Unity sin necesidad
+*.unitypackage
+*.apk
+*.aab
+*.exe
+*.app
+*.xcodeproj/
+
+# Lightmaps, GI Cache
+[Ll]ightmapSnapshot
+LightingData.asset
+LightingData/
+
+# Cache de Timeline
+*.playable
+
+# TextMeshPro archivos generados
+[Tt]extMesh Pro/Build/
+
+# RenderPipeline cache
+[Ss]ettings/Graphics/
+[Ss]ettings/Quality/
+
+# Cache de Addressables
+[Aa]ssets/**/AddressableAssetsData/*/Build*/
+[Aa]ssets/**/AddressableAssetsData/*/ServerData*/
+
+# =============================================
+# GIT - propias
+# =============================================
+
+# Carpetas de respaldo
+[Bb]ackup*/
+[Bb]ackups/
+
+# Prefabs temporales
+*.orig
+*.merge
+*.backup
