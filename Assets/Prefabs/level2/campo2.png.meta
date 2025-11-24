@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3bee7046453b41f4bb0948e969280819
+guid: fbe8c80d7484c1a4da2cab1dd2ba7f54
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 124878050463521077
-    second: Logo menu pong_0
+      213: -8991128112662413165
+    second: campo2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Logo menu pong_0
+      name: campo2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1024
-        height: 647
+        width: 1343
+        height: 620
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5391f1edce7abb100800000000000000
-      internalID: 124878050463521077
+      spriteID: 3908aba5e98193380800000000000000
+      internalID: -8991128112662413165
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Logo menu pong_0: 124878050463521077
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

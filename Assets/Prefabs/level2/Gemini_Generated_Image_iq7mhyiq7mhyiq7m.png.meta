@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c8cb1fa29d537cc4985cbb5ad7a81b98
+guid: 26d21fffed274a64d89328c4abdee3d7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5662421530032355946
-    second: MAIL-removebg-preview_0
+      213: -3910919290995937293
+    second: Gemini_Generated_Image_iq7mhyiq7mhyiq7m_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MAIL-removebg-preview_0
+      name: Gemini_Generated_Image_iq7mhyiq7mhyiq7m_0
       rect:
         serializedVersion: 2
-        x: 58
-        y: 52
-        width: 131
-        height: 130
+        x: 0
+        y: 0
+        width: 1344
+        height: 652
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a6a3a1a7166f49e40800000000000000
-      internalID: 5662421530032355946
+      spriteID: 3ffe6f230af99b9c0800000000000000
+      internalID: -3910919290995937293
       vertices: []
       indices: 
       edges: []
