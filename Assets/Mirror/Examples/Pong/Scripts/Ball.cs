@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Mirror.Examples.Pong
 {
@@ -10,6 +10,7 @@ namespace Mirror.Examples.Pong
         public override void OnStartServer()
         {
             base.OnStartServer();
+
 
             // only simulate ball physics on server
             rigidbody2d.simulated = true;

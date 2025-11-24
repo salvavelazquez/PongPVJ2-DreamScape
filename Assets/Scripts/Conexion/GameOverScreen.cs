@@ -8,7 +8,12 @@ public class GameOverScreen : MonoBehaviour
 
     void Start()
     {
-        winnerText.text = WinnerHolder.winner;
+
+            if (MenuSalas.modoJuego == "offline")
+                winnerText.text = GameManager.instance.winnerMessage;
+            else
+                winnerText.text = WinnerHolder.winner;
+
     }
 
     public void ReturnToMenu()
