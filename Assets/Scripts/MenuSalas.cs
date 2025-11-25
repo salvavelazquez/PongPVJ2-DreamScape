@@ -3,23 +3,21 @@ using UnityEngine.SceneManagement;
 
 public class MenuSalas : MonoBehaviour
 {
-    public static string modoJuego = "";
-
     public void SimpleOffline()
     {
-        modoJuego = "offline";
-        SceneManager.LoadScene("LevelOffline");
+        GameModeSelection.Select(new OfflineMode());
+        SceneManager.LoadScene(GameModeSelection.CurrentMode.SceneName);
     }
 
     public void MultiplayerSimple()
     {
-        modoJuego = "onlineSimple";
+        GameModeSelection.Select(new OnlineSimpleMode());
         SceneManager.LoadScene("MenuOnline");
     }
 
     public void MultiplayerHardcore()
     {
-        modoJuego = "onlineHardcore";
+        GameModeSelection.Select(new OnlineHardcoreMode());
         SceneManager.LoadScene("MenuOnline");
     }
 

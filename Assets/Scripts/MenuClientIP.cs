@@ -9,16 +9,14 @@ public class MenuClientIP : MonoBehaviour
 
     public void Conectar()
     {
-        if (string.IsNullOrEmpty(ipInput.text)) return;
+        if (string.IsNullOrEmpty(ipInput.text))
+            return;
 
         NetworkManager.singleton.networkAddress = ipInput.text;
         NetworkManager.singleton.StartClient();
 
-        if (MenuSalas.modoJuego == "onlineSimple")
-            SceneManager.LoadScene("Level1");
-
-        if (MenuSalas.modoJuego == "onlineHardcore")
-            SceneManager.LoadScene("Level2");
+        // Cuando el cliente se conecta, cargamos la escena definida por el modo seleccionado
+        SceneManager.LoadScene(GameModeSelection.CurrentMode.SceneName);
     }
 
     public void Volver()
