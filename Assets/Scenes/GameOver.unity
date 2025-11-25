@@ -910,7 +910,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1870303183}
-  - component: {fileID: 1870303182}
   - component: {fileID: 1870303184}
   m_Layer: 0
   m_Name: GameOverManager
@@ -919,19 +918,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1870303182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1870303181}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d6c50357faaa134d9a066675aba8f5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winnerText: {fileID: 1024372206}
 --- !u!4 &1870303183
 Transform:
   m_ObjectHideFlags: 0

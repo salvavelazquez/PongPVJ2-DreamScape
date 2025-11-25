@@ -8,11 +8,8 @@ public class MenuOnline : MonoBehaviour
     {
         NetworkManager.singleton.StartHost();
 
-        if (MenuSalas.modoJuego == "onlineSimple")
-            NetworkManager.singleton.ServerChangeScene("Level1");
-
-        if (MenuSalas.modoJuego == "onlineHardcore")
-            NetworkManager.singleton.ServerChangeScene("Level2");
+        // Cargar la escena definida por el modo actual
+        NetworkManager.singleton.ServerChangeScene(GameModeSelection.CurrentMode.SceneName);
     }
 
     public void Client()

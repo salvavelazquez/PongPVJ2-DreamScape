@@ -37,22 +37,8 @@ public class TimerController : MonoBehaviour
 
     void Finalized()
     {
-        int p1 = GameManager.instance.scoreP1;
-        int p2 = GameManager.instance.scoreP2;
-
-        if (p1 > p2)
-        {
-            GameManager.instance.winnerMessage = "¡Ganó el Player 1 (Azul)!";
-        }
-        else if (p2 > p1)
-        {
-            GameManager.instance.winnerMessage = "¡Ganó el Player 2 (Naranja)!";
-        }
-        else
-        {
-            GameManager.instance.winnerMessage = "¡Empate!";
-        }
-
+        GameManager.instance.SetWinner();
         SceneManager.LoadScene("GameOver");
     }
+
 }
