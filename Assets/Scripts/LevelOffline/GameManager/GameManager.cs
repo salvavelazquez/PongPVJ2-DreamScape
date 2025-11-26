@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        ballResetService = FindObjectOfType<BallResetService>();
+        ballResetService = Object.FindFirstObjectByType<BallResetService>();
     }
 
     public void ScorePoint(bool player1)
@@ -46,4 +46,10 @@ public class GameManager : MonoBehaviour
         else
             winnerMessage = "Empate";
     }
+
+    public void ResetScores()
+    {
+        scoreService.ResetScores();
+    }
+
 }

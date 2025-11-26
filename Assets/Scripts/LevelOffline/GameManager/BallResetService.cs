@@ -4,14 +4,17 @@ public class BallResetService : MonoBehaviour, IBallResetService
 {
     [SerializeField] private BallController ball;
 
-    private void Awake()
+    private void OnEnable()
     {
         if (ball == null)
-            ball = FindObjectOfType<BallController>();
+            ball = Object.FindFirstObjectByType<BallController>();
     }
 
     public void ResetBall()
     {
+        if (ball == null)
+            ball = Object.FindFirstObjectByType<BallController>();
+
         ball.ResetToCenterAndLaunch();
     }
 }
