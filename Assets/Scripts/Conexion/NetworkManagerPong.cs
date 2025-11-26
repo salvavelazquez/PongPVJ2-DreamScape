@@ -17,7 +17,9 @@ public class NetworkManagerPong : NetworkManager
     {
         // SI YA TIENE PLAYER, NO CREAR OTRO
         if (conn.identity != null)
+        {
             return;
+        }
 
         GameObject prefabToSpawn;
         Transform spawnPos;
@@ -25,12 +27,14 @@ public class NetworkManagerPong : NetworkManager
         // Primer jugador → azul
         if (numPlayers == 0)
         {
+            
             prefabToSpawn = playerBluePrefab;
             spawnPos = leftSpawn;
         }
         else
         {
             // Segundo jugador → naranja
+            
             prefabToSpawn = playerOrangePrefab;
             spawnPos = rightSpawn;
         }
