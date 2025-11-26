@@ -12,13 +12,13 @@ public class MenuSalas : MonoBehaviour
     public void MultiplayerSimple()
     {
         GameModeSelection.Select(new OnlineSimpleMode());
-        SceneManager.LoadScene("MenuOnline");
+        SceneManager.LoadScene("Level1");
     }
 
     public void MultiplayerHardcore()
     {
         GameModeSelection.Select(new OnlineHardcoreMode());
-        SceneManager.LoadScene("MenuOnline");
+        SceneManager.LoadScene("Level2");
     }
 
     public void Volver()
