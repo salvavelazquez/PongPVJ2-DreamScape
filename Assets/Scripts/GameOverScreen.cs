@@ -26,6 +26,7 @@ public class GameOverScreen : MonoBehaviour
         // Si estoy en modo OFFLINE voy directo al menú
         if (GameModeSelection.CurrentMode is OfflineMode)
         {
+            GameManager.instance.ResetScores();
             SceneManager.LoadScene("Menu");
             return;
         }
