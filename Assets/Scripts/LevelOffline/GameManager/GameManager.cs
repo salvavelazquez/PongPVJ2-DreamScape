@@ -40,9 +40,9 @@ public class GameManager : MonoBehaviour
     public void SetWinner()
     {
         if (scoreP1 > scoreP2)
-            winnerMessage = "Ganó Player 1";
+            winnerMessage = "Ganó Player 1 (Azul)";
         else if (scoreP2 > scoreP1)
-            winnerMessage = "Ganó Player 2";
+            winnerMessage = "Ganó Player 2 (Naranja)";
         else
             winnerMessage = "Empate";
     }
