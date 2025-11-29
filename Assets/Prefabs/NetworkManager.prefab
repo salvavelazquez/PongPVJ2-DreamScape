@@ -93,9 +93,9 @@ MonoBehaviour:
   autoCreatePlayer: 0
   playerSpawnMethod: 0
   spawnPrefabs:
-  - {fileID: 6355690826650605217, guid: 8cb808adf10ef7e429b43dc13b55033b, type: 3}
-  - {fileID: 4360065169570984370, guid: bed4600607279ac47bf83dfa94b645c5, type: 3}
-  - {fileID: 3576625469617138145, guid: 879ad486fba65a441a5802e46d56a056, type: 3}
+  - {fileID: 7240555655475371607, guid: e9878c64771c8554dadd8fb6017b4ade, type: 3}
+  - {fileID: 8140739779354139194, guid: f1ed37aedb859744abab4ae9160637fa, type: 3}
+  - {fileID: 954164531625017512, guid: bed428e76090fc345b0c9385bc5ac69e, type: 3}
   exceptionsDisconnect: 1
   snapshotSettings:
     bufferTimeMultiplier: 2
@@ -111,11 +111,11 @@ MonoBehaviour:
   evaluationMethod: 0
   evaluationInterval: 3
   timeInterpolationGui: 0
-  playerBluePrefab: {fileID: 6355690826650605217, guid: 8cb808adf10ef7e429b43dc13b55033b, type: 3}
-  playerOrangePrefab: {fileID: 4360065169570984370, guid: bed4600607279ac47bf83dfa94b645c5, type: 3}
+  playerBluePrefab: {fileID: 7240555655475371607, guid: e9878c64771c8554dadd8fb6017b4ade, type: 3}
+  playerOrangePrefab: {fileID: 8140739779354139194, guid: f1ed37aedb859744abab4ae9160637fa, type: 3}
   leftSpawn: {fileID: 7127366058401029208, guid: fe113c08c215070499622bb366a74073, type: 3}
   rightSpawn: {fileID: 2677189629041654047, guid: abfebeeccc30c5246a67ebda2fd5ea77, type: 3}
-  ballPrefab: {fileID: 3576625469617138145, guid: 879ad486fba65a441a5802e46d56a056, type: 3}
+  ballPrefab: {fileID: 954164531625017512, guid: bed428e76090fc345b0c9385bc5ac69e, type: 3}
 --- !u!114 &4032893591412510385
 MonoBehaviour:
   m_ObjectHideFlags: 0
