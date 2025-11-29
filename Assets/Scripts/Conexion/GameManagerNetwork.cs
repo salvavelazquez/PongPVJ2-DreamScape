@@ -48,7 +48,7 @@ namespace Mirror.Examples.Pong
             if (scoreLeft > scoreRight)
                 winner = "¡Ganó Player 1 (Azul)!";
             else if (scoreRight > scoreLeft)
-                winner = "¡Ganó Player 2 (Naranja)!";
+                winner = "¡Ganó Player 2 (Verde)!";
             else
                 winner = "¡Empate!";
 
