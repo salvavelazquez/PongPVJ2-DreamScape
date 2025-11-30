@@ -8,10 +8,10 @@ El juego es una versión extendida del clásico **Pong**, con modo **Offline**, 
 ## 📌 Capturas del Juego
 
 ### 🖼️ Menú Principal
-![Menu](ruta/a/tu/imagen_menu.png)
+![Menu](https://github.com/salvavelazquez/PongPVJ2-DreamScape/blob/main/capmenu.PNG)
 
 ### 🕹️ Gameplay
-![Gameplay](ruta/a/tu/imagen_juego.png)
+![Gameplay](https://github.com/salvavelazquez/PongPVJ2-DreamScape/blob/main/Multiplayer.png)
 
 ---
 
@@ -52,4 +52,4 @@ El juego es una versión extendida del clásico **Pong**, con modo **Offline**, 
 
 1. Descargar o clonar el repositorio:  
    ```bash
-   git clone https://github.com/usuario/nombre-del-repo.git
+   git clone https://github.com/salvavelazquez/PongPVJ2-DreamScape
